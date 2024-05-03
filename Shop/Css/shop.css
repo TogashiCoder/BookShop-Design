@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.big-pa{
+  width: 100%;
+  min-height: 200vh;
+}
+
+
+
+/* Section  1  */
+
+#section-1{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+
+    /*========== Fist 1================== */
+.Fist-1{
+    display: flex;
+    align-items: center;
+    margin-left: -85px;
+}
+
+.Fist-1 span a{
+ text-decoration: none;
+ color: black;
+}
+
+
+
+#logo_img-id{
+    max-width: 100px;
+    max-height: 50px;
+}
+#span-logo-title{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 9px;
+  padding-left:3px;
+}
+
+    /*========== Fist 2================== */
+
+.Fist-2{
+  display: flex;
+  align-items: center;
+  margin-left:-150px;
+}    
+
+
+.dropbtn {
+    background-color: #D88D8D;
+    display: block;
+    color: white;
+    padding: 16px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 200px;
+    padding: 12px 0;
+    
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 1px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+ 
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  #angle-down{
+      margin-left: 20px;
+  }
+  
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1
+
+  }
+  
+  #Categories-span{
+    font-family: "Inter", sans-serif;
+  }
+
+
+      /*========== Fist 3================== */
+
+      .Fist-3{
+        display: flex;
+        align-items: center;
+        margin-left:-240px;
+      }
+
+/* Style for search area container */
+.search-area {
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+}
+
+/* Style for search form */
+.search-form {
+  display: flex;
+  align-items: center;
+  border-radius: 45px;
+  padding: 5px;
+  background-color: #F6F6F6;
+  height: 100%;
+}
+/* Style for search input */
+#searchInput {
+  background-color: #F6F6F6;
+  border: none;
+  padding: 5px;
+  width: 300px;   /*control search size  */
+  border-radius: 45px;
+  font-size: 16px;
+}
+
+/* Style for search icon */
+.fa-search {
+  margin-left: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+
+      /*========== Fist 4================== */
+
+      .Fist-4{
+        display: flex;
+        align-items: center;
+        gap: -430px;
+      }
+
+      #top-icone-area{
+        width: 100px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+      }
+
+      .vertical-line{
+        width:1px;
+        background-color: #EAEAEA;
+        height: 30px;
+      }
+
+      .top-icone{
+        font-size: 19px;
+        opacity: 0.5;
+        color: black;
+      }
+
+
+
+      /* separate-line  */
+
+      #separate-line{
+        margin-bottom: 10px;
+        background-color: #EDEDED;
+        width: 100%;
+        height: 1px;
+        opacity: 0.8;
+      }
+      /* section 2 ============================================================================================= */
+
+      #nav-list{
+        display: flex;
+        justify-content: center;
+        margin: 25px 0;
+        gap: 80px;
+        list-style: none;
+      }
+      #nav-list a{
+        text-decoration: none;
+
+      }
+
+      .nav-list-word{
+        color: black;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+
+
+      /* section 3 ============================================================================================= */
+      .father{
+        position: relative;
+      }
+
+      #image-home{
+        width: 100%;
+        height: 480px
+      }
+
+      .paragraph{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .look{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        left: 800px;
+      }
+
+ 
+  
+      /* shop now  */
+      .look a{
+        margin-top: 35px;
+        display: inline-block;
+        width: 120px;
+        height: 45px;
+        padding-top: 12px;
+        text-align: center;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 500;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        color: black;
+        border-radius: 30px;
+        transition: 1s all;
+      }
+
+
+      .look a:hover  {
+        background-color: black;
+        color: white;
+    }
+    
+
+      .line{
+        font-family: "Shadows Into Light", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-weight: 700;
+        font-size:xx-large;
+      }
+
+     
+
+      #discount-img{
+        width: 70px;
+        position: absolute;
+        top: 145px;
+        left: 870px;
+        transform: rotate(-5deg);
+      }
+
+
+      /* section 4 ============================================================================================= */
+      #section-4{
+        margin-top: 35px;
+        margin-bottom: 35px;
+      }
+      .viewAll-area{
+        display: flex;
+        gap: 30px;
+      }
+      
+      .viewAll-area h1{
+        margin-left: 25px;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+      }
+
+      .divline{
+        width: 66%;
+        height: 2px;
+        background-color: #D88D8D;
+        opacity: 0.2;
+        margin-top: 15px;
+      }
+
+      .viewAll-area a{
+        display: inline-block;
+        width: 120px;
+        height: 40px;
+        background-color: #D88D8D;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 20px;
+        padding-top: 10px;
+        transition: 1s all;
+      }
+
+      
+      .viewAll-area a:hover  {
+        background-color: black;
+        color: white;
+    }
+
+      .iii{
+        color: black;
+        margin-left:10px;
+      }
+
+
+      /* section-5   Bestselling-books-section   =========================================================== */
+
+      
+  .container-HorizontalScroll {
+    width: 100%;
+    height: 100vh;
+    overflow-x: auto; /* Enable horizontal scrollbar */
+    white-space: nowrap; /* Keep items in a single line */
+  }
+
+  /* Hide the default scrollbar */
+  .container-HorizontalScroll::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Style for each item/link */
+  .item {
+    display: inline-block;
+    /* width: 300px;
+    height: 210px; */
+    /* background-color: #ccc; */
+    margin-right: 20px;
+    text-align: center;
+    /* line-height: 200px; */
+    font-size: 24px;
+  }
+
+  .item a {
+    color: #333;
+    text-decoration: none;
+  }
+
+
+
+  /* ==== */
+/* control cover size */
+  .book-cover{
+    
+    width: 240px;
+    height: 380px;
+  }
+
+  .book-cover img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+  }
+
+  .item p{
+    font-size: 10px;
+  }
+
+
+  .book{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #item-title-book{
+    margin-top: 20px;
+    width: 220px;
+    overflow-wrap: break-word; 
+    font-family: "Roboto", sans-serif;
+    /* font-weight: 900; */
+    font-style: normal;
+    font-size: 14px;
+  }
+
+  .stars-rating{
+  }
+  .checked {
+    color: orange;
+  }
+
+
+  .star{
+    font-size: 13px;
+  }
+
+  .writer{
+    color: #BFBFBF;
+    margin-top: 5px;
+  }
+
+  #book-price{
+    
+    color: #D88D8D;
+    font-size: 13px;
+  }
+  #dollar{
+    font-size: 13px;
+  }
+
+
+
+
+  /* Deals-Of-The-Week section ========================================================= */
+
+  .the-week-father{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    
+  }
+
+  .binary-div{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 0;
+  }
+
+  .worl-book-div{
+    width: 650px;
+    height: 900px;
+  }
+  #world-image-id{
+    margin-left: 35px;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+  }
+
+  .divv-img{
+    width: 160px;
+    height: 260px;
+  }
+
+  .divv-img img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  .div-img-desc{
+    width: 230px;
+    margin-left: 20px;
+    padding-top: 20px;
+    
+  }
+
+
+  .sideline{
+    width: 300px;
+    height: 2px;
+    background-color: #D88D8D;
+    opacity: 0.2;
+  }
